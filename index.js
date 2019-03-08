@@ -37,6 +37,6 @@ function currentLine(katzDeliLine){
     }while(i < katzDeliLine.length)
 
 
-    return `"The line is currently: " + ${lineList}`
+    return `"The line is currently: " + "${lineList}""`
   }
 }
