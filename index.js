@@ -42,7 +42,7 @@ function currentLine(katzDeliLine){
       if (j<katzDeliLine.length){
         lineList = linelist + ", "
       }
-      
+
     }
 
 
