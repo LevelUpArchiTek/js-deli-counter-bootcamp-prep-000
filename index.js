@@ -32,7 +32,7 @@ function currentLine(katzDeliLine){
 
     do{
         j = i + 1
-        lineList = parseInt(j) + ". " + katzDeliLine[i] + ", "
+        lineList += parseInt(j) + ". " + katzDeliLine[i] + ", "
         i++
     }while(i < katzDeliLine.length)
 
