@@ -30,22 +30,23 @@ function currentLine(katzDeliLine){
     //   lineList = parseInt(j) + ". " + katzDeliLine[i]
     // }\
 
-    // do{
-    //     j = i + 1
-    //     lineList = lineList + j + ". " + katzDeliLine[i] + ", "
-    //     i++
-    // }while(i < katzDeliLine.length)
+    do{
+        j = i + 1
+        lineList = lineList + j + ". " + katzDeliLine[i]
+        i++
+        if (j<katzDeliLine.length){
+            lineList = linelist + ", "
+        }      
+    }while(i < katzDeliLine.length)
 
-    for (var i = 0; i<katzDeliLine.length; i++){
-      var j = i + 1
-      lineList = linelist + j + ". " + katzDeliLine[i]
-      if (j<katzDeliLine.length){
-        lineList = linelist + ", "
-      }
-
-    }
-
-
+    // for (var i = 0; i<katzDeliLine.length; i++){
+    //   var j = i + 1
+    //   lineList = linelist + j + ". " + katzDeliLine[i]
+    //   if (j<katzDeliLine.length){
+    //     lineList = linelist + ", "
+    //   }
+    // }
+    
     return `The line is currently: ${lineList}`
   }
 }
