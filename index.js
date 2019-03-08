@@ -34,7 +34,7 @@ function currentLine(katzDeliLine){
         j = i + 1
         lineList += " " + j + ". " + katzDeliLine[i]
         i++
-        if (j = 1){
+        if (j === 1){
             lineList = linelist + ","
         }
     }while(i < katzDeliLine.length)
