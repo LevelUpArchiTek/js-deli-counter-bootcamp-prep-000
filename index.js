@@ -32,7 +32,7 @@ function currentLine(katzDeliLine){
 
     do{
         j = i + 1
-        lineList = lineList + j + ". " + katzDeliLine[i]
+        lineList = lineList + " " + j + ". " + katzDeliLine[i]
         i++
         // if (j<katzDeliLine.length){
         //     lineList = linelist + ", "
@@ -47,6 +47,6 @@ function currentLine(katzDeliLine){
     //   }
     // }
 
-    return `The line is currently: ${lineList}`
+    return `The line is currently:${lineList}`
   }
 }
