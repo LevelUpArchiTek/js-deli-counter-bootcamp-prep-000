@@ -36,7 +36,7 @@ function currentLine(katzDeliLine){
         i++
         if (j<katzDeliLine.length){
             lineList = linelist + ", "
-        }      
+        }
     }while(i < katzDeliLine.length)
 
     // for (var i = 0; i<katzDeliLine.length; i++){
@@ -46,7 +46,7 @@ function currentLine(katzDeliLine){
     //     lineList = linelist + ", "
     //   }
     // }
-    
+
     return `The line is currently: ${lineList}`
   }
 }
