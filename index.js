@@ -18,7 +18,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(katzDeliLine){
-  var lineList
+  var lineList = ""
   var j = 0
   var i = 0
   if (!katzDeliLine.length){
@@ -32,7 +32,7 @@ function currentLine(katzDeliLine){
 
     do{
         j = i + 1
-        lineList += j + ". " + katzDeliLine[i] + ", "
+        lineList = lineList + j + ". " + katzDeliLine[i] + ", "
         i++
     }while(i < katzDeliLine.length)
 
