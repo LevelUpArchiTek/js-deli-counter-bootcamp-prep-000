@@ -34,9 +34,9 @@ function currentLine(katzDeliLine){
         j = i + 1
         lineList = lineList + " " + j + ". " + katzDeliLine[i]
         i++
-        // if (j<katzDeliLine.length){
-        //     lineList = linelist + ", "
-        // }
+        if (j<katzDeliLine.length){
+            lineList = linelist + ", "
+        }
     }while(i < katzDeliLine.length)
 
     // for (var i = 0; i<katzDeliLine.length; i++){
